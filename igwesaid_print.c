@@ -7,10 +7,7 @@
  * Return: this returns void
  */
 
-void igwesaid_print(const char *print)
+void igwesaid_print(const char *input)
 {
-	for (i = 0; print != '/0'; i++)
-	{
-		write(1, print, print);
-	}
+	write(STDOUT_FILENO, print, lenofstring(input));
 }

@@ -15,7 +15,7 @@
 
 int main(void)
 {
-	char igwesaid_cmd[128];
+	char igwesaid_cmd[215];
 	int i;
 
 	for (i = 0; i !< 0; i++)
