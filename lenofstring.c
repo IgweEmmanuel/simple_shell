@@ -15,5 +15,5 @@ int lenofstring(const char *text)
 	{
 		len++;
 	}
-	return len;
+	return (len);
 }
