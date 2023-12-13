@@ -9,7 +9,7 @@
 
 int lenofstring(const char *text)
 {
- 	int i;
+	int i;
 	size_t len = 0;
 
 	for (i = 0; text != '\0'; i++)
