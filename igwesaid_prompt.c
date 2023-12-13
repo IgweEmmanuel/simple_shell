@@ -1,10 +1,9 @@
 #include "igwesaid.h"
 
-/*
- * igwesaid_prompt - This function displays the infinit  prompt
- * 
- * Return: This returns void
- */
+/**
+ * igwesaid_prompt - prompts the user with the dollar sign
+ * Return: void
+*/
 
 void igwesaid_prompt(void)
 {
