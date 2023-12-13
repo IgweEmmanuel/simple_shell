@@ -16,5 +16,5 @@ int main(void)
 		igwesaid_input(igwesaid_cmd, sizeof(igwesaid_cmd));
 		igwesaid_exec(igwesaid_cmd);
 	}
-	return 0;
+	return (0);
 }
