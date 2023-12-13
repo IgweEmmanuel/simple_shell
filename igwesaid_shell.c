@@ -1,17 +1,9 @@
 #include "igwesaid.h"
 
-/*
- * Author - Igwe and Oussaid
- * 
- *
- *
- */
-
-/*
- * main - this prints the shell prompt
- *
- * Return: returns always success 
- */
+/**
+ * main - entry point
+ * Return: Always 0 if successful
+*/
 
 int main(void)
 {
@@ -22,7 +14,7 @@ int main(void)
 	{
 		igwesaid_prompt();
 		igwesaid_input(igwesaid_cmd, sizeof(igwesaid_cmd));
-		igwesaid_exec(igwesaid_cmd);	
+		igwesaid_exec(igwesaid_cmd);
 	}
 	return 0;
 }
