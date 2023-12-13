@@ -3,7 +3,7 @@
 /**
  * igwesaid_exec - a function that executes the command
  * @input: the input from the user
- * Return: void 
+ * Return: void
 */
 
 void igwesaid_exec(const char *input)
@@ -23,6 +23,6 @@ void igwesaid_exec(const char *input)
 	}
 	else
 	{
-		wait(NULL);	
+		wait(NULL);
 	}
 }
