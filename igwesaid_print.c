@@ -1,11 +1,10 @@
 #include "igwesaid.h"
 
-/*
- * igwesaid_print - this is a print function
- * @input: this is the parameter that prints result
- *
- * Return: this returns void
- */
+/**
+ * igwesaid_print - a function that prints to STDOUT
+ * @input: the input of the user
+ * Return: void
+*/
 
 void igwesaid_print(const char *input)
 {
