@@ -9,5 +9,5 @@
 
 void igwesaid_print(const char *input)
 {
-	write(STDOUT_FILENO, print, lenofstring(input));
+	write(STDOUT_FILENO, input, lenofstring(input));
 }
