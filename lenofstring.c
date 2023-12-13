@@ -1,11 +1,10 @@
 #include "igwesaid.h"
 
-/*
- * lenofstring - this checks for the length of a string
- * @text: this parameter represents the string
- *
- * Return: this returns length 
- */
+/**
+ * lenofstring - counts the length of a string
+ * @text: the string to be counted
+ * Return: an integer
+*/
 
 int lenofstring(const char *text)
 {
